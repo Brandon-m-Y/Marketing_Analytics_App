@@ -2,7 +2,7 @@
 # Python version
 #
 # This project is developed and tested with:
-# Python==3.13.3
+# Python==3.11
 #
 # Create a virtual environment with that version (or as close as possible),
 # then install these dependencies with:
