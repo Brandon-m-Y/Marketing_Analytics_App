@@ -12,33 +12,32 @@
 #
 # Core data & app stack
 #
-pandas
-numpy
-scikit-learn
-scipy
-streamlit
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+scikit-learn>=1.3.0,<2.0.0
+scipy>=1.11.0,<2.0.0
+streamlit>=1.30.0,<2.0.0
 
 #
 # Visualization / EDA
 #
-matplotlib
-seaborn
-plotly
-python-dotenv
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+plotly>=5.17.0,<6.0.0
+python-dotenv>=1.0.0,<2.0.0
 
 #
 # I/O helpers
 #
-openpyxl       # Excel read/write
-pyarrow        # Optional, for faster CSV/Parquet handling
+openpyxl>=3.1.0,<4.0.0       # Excel read/write
+pyarrow>=14.0.0,<15.0.0      # Optional, for faster CSV/Parquet handling
 
 #
 # Optional stats / forecasting (for roadmap features)
 #
-statsmodels
+statsmodels>=0.14.0,<1.0.0
 
 #
 # Optional helpers
 #
-kneed          # Elbow detection for K-Means
-
+kneed>=0.8.5,<1.0.0          # Elbow detection for K-Means
