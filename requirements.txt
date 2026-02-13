@@ -1,0 +1,44 @@
+#
+# Python version
+#
+# This project is developed and tested with:
+# Python==3.13.3
+#
+# Create a virtual environment with that version (or as close as possible),
+# then install these dependencies with:
+#   pip install -r requirements.txt
+#
+
+#
+# Core data & app stack
+#
+pandas
+numpy
+scikit-learn
+scipy
+streamlit
+
+#
+# Visualization / EDA
+#
+matplotlib
+seaborn
+plotly
+python-dotenv
+
+#
+# I/O helpers
+#
+openpyxl       # Excel read/write
+pyarrow        # Optional, for faster CSV/Parquet handling
+
+#
+# Optional stats / forecasting (for roadmap features)
+#
+statsmodels
+
+#
+# Optional helpers
+#
+kneed          # Elbow detection for K-Means
+

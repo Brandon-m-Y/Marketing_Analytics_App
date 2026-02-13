@@ -31,7 +31,7 @@ with col1:
         **Why small businesses choose us:**
         - ✅ **100% Local Processing** - Customer data never leaves your computer
         - ✅ **No Subscriptions** - No monthly fees like enterprise platforms
-        - ✅ **Open Source** - [Verify our privacy promise yourself](https://github.com/yourusername/bmy-analytics)
+        - ✅ **Open Source** - [Verify our privacy promise yourself](https://github.com/Brandon-m-Y/Marketing_Analytics_App)
         - ✅ **No Data Mining** - We don't collect, sell, or train on your customer data
         """
     )
@@ -50,7 +50,7 @@ with col2:
                 ❌ No AI training on your data<br><br>
                 ✅ Everything runs locally<br>
                 ✅ You control what gets shared<br><br>
-                <em>Don't take our word for it—<br><a href='https://github.com/yourusername/bmy-analytics' target='_blank'>review our open source code</a>.</em>
+                <em>Don't take our word for it—<br><a href='https://github.com/Brandon-m-Y/Marketing_Analytics_App' target='_blank'>review our open source code</a>.</em>
             </p>
         </div>
         """, 
@@ -298,7 +298,7 @@ with privacy_col2:
 st.info(
     """
     **🔍 Trust but Verify:** We're open source because privacy claims mean nothing without proof. 
-    [Review our code on GitHub](https://github.com/yourusername/bmy-analytics) to see exactly what we do (and don't do) with your data.
+    [Review our code on GitHub](https://github.com/Brandon-m-Y/Marketing_Analytics_App) to see exactly what we do (and don't do) with your data.
     """
 )
 
@@ -316,8 +316,8 @@ with col1:
 with col2:
     st.markdown(
         """
-        <a href='https://github.com/yourusername/bmy-analytics' target='_blank'>
-            <button style='width: 100%; padding: 0.5rem; background-color: #f0f2f6; border: 1px solid #d0d0d0; border-radius: 0.5rem; cursor: pointer;'>
+        <a href='https://github.com/Brandon-m-Y/Marketing_Analytics_App' target='_blank'>
+            <button style='width: 100%; padding: 0.5rem; background-color: None; border: 1px solid #d0d0d0; border-radius: 0.5rem; cursor: pointer;'>
                 ⭐ Star on GitHub
             </button>
         </a>
@@ -328,8 +328,8 @@ with col2:
 with col3:
     st.markdown(
         """
-        <a href='https://github.com/yourusername/bmy-analytics#quick-start' target='_blank'>
-            <button style='width: 100%; padding: 0.5rem; background-color: #f0f2f6; border: 1px solid #d0d0d0; border-radius: 0.5rem; cursor: button;'>
+        <a href='https://github.com/Brandon-m-Y/Marketing_Analytics_App/blob/main/readme.md' target='_blank'>
+            <button style='width: 100%; padding: 0.5rem; background-color: None; border: 1px solid #d0d0d0; border-radius: 0.5rem; cursor: pointer;'>
                 📖 Installation Guide
             </button>
         </a>
@@ -350,7 +350,7 @@ with footer_col1:
         **Built by Brandon Ytuarte** | Data Analyst & Aspiring Data Scientist  
         [LinkedIn](https://www.linkedin.com/in/brandon-m-ytuarte/) • [GitHub](https://github.com/Brandon-m-Y)  
         
-        Questions? Feedback? [Open an issue](https://github.com/yourusername/bmy-analytics/issues) or DM me on LinkedIn.  
+        Questions? Feedback? [Open an issue](https://github.com/Brandon-m-Y/Marketing_Analytics_App/issues) or DM me on LinkedIn.  
         This is a living project—your input shapes what gets built next.
         """
     )
@@ -362,6 +362,6 @@ with footer_col2:
         **🔒 Privacy-First Architecture**  
         **💯 Free Forever**
         
-        [MIT License](https://github.com/yourusername/bmy-analytics/blob/main/LICENSE) • [Changelog](https://github.com/yourusername/bmy-analytics/releases)
+        [MIT License](https://github.com/Brandon-m-Y/Marketing_Analytics_App/tree/main) • [Changelog](https://github.com/Brandon-m-Y/Marketing_Analytics_App/releases)
         """
     )

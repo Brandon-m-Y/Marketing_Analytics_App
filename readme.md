@@ -160,25 +160,62 @@ print(segment_summary)
 
 ---
 
-## How to Run (Generic Instructions)
+## Quick Start
 
-Since environments differ, adjust paths/commands as needed.
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
 
-- **1. Set up environment**
-  - Create and activate a virtual environment (e.g. `python -m venv .venv`).
-  - Install dependencies from `requirements.txt` (if present):  
-    `pip install -r requirements.txt`
+### Installation & Setup
 
-- **2. Prepare input data**
-  - Place your raw customer or transaction file(s) into a `data/` directory.
-  - Ensure required columns (e.g. `customer_id`, `order_id`, `order_value`, `last_purchase_date`) match the code.
+1. **Clone the repository**
+```bash
+   git clone https://github.com/Brandon-m-Y/Marketing_Analytics_App
+   cd bmy-analytics
+```
 
-- **3. Run the segmentation pipeline**
-  - Execute the main script or notebook that performs preprocessing and clustering (for example, `python src/segment_customers.py` or open the corresponding Jupyter notebook).
+2. **Install dependencies**
+```bash
+   pip install -r requirements.txt
+```
 
-- **4. Review outputs**
-  - Inspect saved segment labels (e.g. `data/customers_with_segments.csv`).
-  - Use charts/tables in notebooks or dashboards to understand each segment.
+3. **Run the app**
+```bash
+   streamlit run Home.py
+```
+
+4. **Open in your browser**
+   - Streamlit will automatically open `http://localhost:8501`
+   - If it doesn't, manually visit that URL
+
+### First Time Using the App?
+
+1. Click **📥 Data Intake** in the sidebar
+2. Upload a CSV or Excel file (customer list, sales data, etc.)
+3. Follow the guided workflow through cleaning, exploration, and segmentation
+4. Download your results and AI-powered insights
+
+That's it! Your data never leaves your computer.
+
+### Optional: Virtual Environment (Recommended)
+
+For a clean installation, use a virtual environment:
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
 
 ---
 
