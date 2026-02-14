@@ -47,7 +47,7 @@ if df is None:
     st.stop()
 
 st.caption(f"File: {st.session_state.get('file_name', 'Unknown')}")
-st.write("DEBUG columns:", df.columns.tolist())
+# st.write("DEBUG columns:", df.columns.tolist())
 
 # =========================================================
 # Explain Graph: UI + (future) LLM hook
