@@ -255,3 +255,6 @@ This repository is intended to evolve beyond segmentation and basic forecasting.
   - Tighter integration with BI tools (e.g. Power BI, Tableau, or a lightweight web dashboard) to explore segments and forecasts interactively.
 
 If you are reviewing this project as part of a portfolio, please note that **this is a first version** with a clear roadmap toward **richer forecasting and marketing analytics functionality**, including sales forecasting starting in **v1.1**.
+
+
+See the full app here [App](https://marketingseg.streamlit.app/)
