@@ -257,4 +257,4 @@ This repository is intended to evolve beyond segmentation and basic forecasting.
 If you are reviewing this project as part of a portfolio, please note that **this is a first version** with a clear roadmap toward **richer forecasting and marketing analytics functionality**, including sales forecasting starting in **v1.1**.
 
 
-See the full app here [App](https://marketingseg.streamlit.app/)
+ [See the full app here](https://marketingseg.streamlit.app/)
